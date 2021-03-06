@@ -13,6 +13,9 @@
 		CEBBBD6925F34BFE001659A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBBBD6725F34BFE001659A5 /* Main.storyboard */; };
 		CEBBBD6B25F34C00001659A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBBBD6A25F34C00001659A5 /* Assets.xcassets */; };
 		CEBBBD6E25F34C00001659A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBBBD6C25F34C00001659A5 /* LaunchScreen.storyboard */; };
+		CEBBBD7B25F34CCA001659A5 /* ViewController_SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBBD7A25F34CCA001659A5 /* ViewController_SignUp.swift */; };
+		CEBBBD7E25F34CEE001659A5 /* ViewController_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBBD7D25F34CEE001659A5 /* ViewController_Login.swift */; };
+		CEBBBD8125F34D30001659A5 /* ViewController_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBBD8025F34D30001659A5 /* ViewController_Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CEBBBD6A25F34C00001659A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEBBBD6D25F34C00001659A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEBBBD6F25F34C00001659A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBBBD7A25F34CCA001659A5 /* ViewController_SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_SignUp.swift; sourceTree = "<group>"; };
+		CEBBBD7D25F34CEE001659A5 /* ViewController_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Login.swift; sourceTree = "<group>"; };
+		CEBBBD8025F34D30001659A5 /* ViewController_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,24 @@
 			children = (
 				CEBBBD6125F34BFE001659A5 /* AppDelegate.swift */,
 				CEBBBD6325F34BFE001659A5 /* SceneDelegate.swift */,
-				CEBBBD6525F34BFE001659A5 /* ViewController.swift */,
+				CEBBBD8325F34D4E001659A5 /* All View Controllers */,
 				CEBBBD6725F34BFE001659A5 /* Main.storyboard */,
 				CEBBBD6A25F34C00001659A5 /* Assets.xcassets */,
 				CEBBBD6C25F34C00001659A5 /* LaunchScreen.storyboard */,
 				CEBBBD6F25F34C00001659A5 /* Info.plist */,
 			);
 			path = Cafe_NIBM;
+			sourceTree = "<group>";
+		};
+		CEBBBD8325F34D4E001659A5 /* All View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEBBBD8025F34D30001659A5 /* ViewController_Home.swift */,
+				CEBBBD7D25F34CEE001659A5 /* ViewController_Login.swift */,
+				CEBBBD7A25F34CCA001659A5 /* ViewController_SignUp.swift */,
+				CEBBBD6525F34BFE001659A5 /* ViewController.swift */,
+			);
+			path = "All View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBBBD6625F34BFE001659A5 /* ViewController.swift in Sources */,
+				CEBBBD8125F34D30001659A5 /* ViewController_Home.swift in Sources */,
 				CEBBBD6225F34BFE001659A5 /* AppDelegate.swift in Sources */,
+				CEBBBD7E25F34CEE001659A5 /* ViewController_Login.swift in Sources */,
+				CEBBBD7B25F34CCA001659A5 /* ViewController_SignUp.swift in Sources */,
 				CEBBBD6425F34BFE001659A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
